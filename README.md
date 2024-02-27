@@ -1,4 +1,4 @@
-## ==⚠️ It is recommended to check the config before using it, it could be specs specific==
+> ⚠️ It is recommended to check the config before using it, it could be specs specifi
 
 <img align="left" src="./specs.png" width=130></img>
 # macOS Sonoma for Optiplex 3020
