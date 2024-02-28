@@ -11,14 +11,16 @@ An EFI made accordingly with the official opencore documentation. This EFI shoul
 
 ## `ACPI/`
 
-| SSDT-EC-DESKTOP.aml | Prebuilt ACPI, just works  |
 | -- | -- |
+| ACPI | Description |
+| SSDT-EC-DESKTOP.aml | Prebuilt ACPI, just works  |
 | SSDT-PLUG-DRTNIA.aml | Prebuilt ACPI, just works  |
 
 ## `Drivers/`
 
-| HfsPlus.efi | Driver for HFS  |
 | -- | -- |
+| Drivers | Description |
+| HfsPlus.efi | Driver for HFS  |
 | OpenRuntime.efi | Opencore Functionality  |
 | ResetNvramEntry.efi | Used for changing SIP   |
 | XhciDxe.efi | USB3.0  |
@@ -26,8 +28,9 @@ An EFI made accordingly with the official opencore documentation. This EFI shoul
 
 ## `Kexts/`
 
-| AppleALC | for audio i use alcid=17  |
 | -- | -- |
+| Kexts | Description |
+| AppleALC | for audio i use alcid=17  |
 | UTBMap & USBToolBox | Usb Mapping for the MT Version  |
 | WhateverGreen | Graphics   |
 | RealtekRTL8111 | Ethernet  |
