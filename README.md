@@ -11,15 +11,15 @@ An EFI made accordingly with the official opencore documentation. This EFI shoul
 
 ## `ACPI/`
 
-| -- | -- |
 | ACPI | Description |
+| -- | -- |
 | SSDT-EC-DESKTOP.aml | Prebuilt ACPI, just works  |
 | SSDT-PLUG-DRTNIA.aml | Prebuilt ACPI, just works  |
 
 ## `Drivers/`
 
-| -- | -- |
 | Drivers | Description |
+| -- | -- |
 | HfsPlus.efi | Driver for HFS  |
 | OpenRuntime.efi | Opencore Functionality  |
 | ResetNvramEntry.efi | Used for changing SIP   |
@@ -28,8 +28,9 @@ An EFI made accordingly with the official opencore documentation. This EFI shoul
 
 ## `Kexts/`
 
-| -- | -- |
+
 | Kexts | Description |
+| -- | -- |
 | AppleALC | for audio i use alcid=17  |
 | UTBMap & USBToolBox | Usb Mapping for the MT Version  |
 | WhateverGreen | Graphics   |
@@ -47,7 +48,7 @@ Since the cpu is older, might appear some lag spikes in the macos interface or w
 1a. don't forget to set your sip in csr-active-config to 0xA03 ( 030a0000 ) and press space in the boot picker and reset the NVRAM.
 
 2. In the `NVRAM -- 7C..82 -- boot-args` make sure you use `amfi_get_out_of_my_way=1 ipc_control_port_options=0  ngfxcompat=1 ngfxgl=1` it disables Metal and uses OpenGL instead.
-3. 
+
 `nvda_drv_vrl=1` -> it is only useful for High Sierra / Sierra, pointless on newer macos versions 
 
 The guide is the same as https://github.com/varszegimarcell/Optiplex-3020-Hackintosh-OpenCore but i didn't have to configure the NVRAM variables, i used the default settings with SecureBoot disabled
