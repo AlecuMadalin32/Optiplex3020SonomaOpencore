@@ -5,7 +5,7 @@
 
 | CPU  | GPU  | Memory  | Storage    | Audio | Ethernet | SMBIOS |
 | ---- | ---- | ------- | ---------- | --- | ------- | -- |
-| i5-4590  | GTX 1060 6GB  | 8GB | Samsung 870 QVO | ALC280 | RTL8111 | iMacPro1,1 | 
+| i5-4570  | GTX 1060 6GB  | 16GB | Samsung 870 QVO | ALC280 | RTL8111 | iMacPro1,1 | 
 
 An EFI made accordingly with the official opencore documentation. This EFI should be used as a pointer or a reference
 
