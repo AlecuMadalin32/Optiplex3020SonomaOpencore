@@ -1,6 +1,6 @@
 > ⚠️ It is recommended to check the config before using it, it could be specs specifi
 
-<img align="left" src="./specs.png" width=80></img>
+<img align="left" src="./specs.png" width=95></img>
 # macOS Sonoma for Optiplex 3020
 
 | CPU  | GPU  | Memory  | Storage    | Audio | Ethernet | SMBIOS |
